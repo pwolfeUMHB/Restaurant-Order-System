@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        @font-face {font-family: JujutsuKaisen; src: url(./styles/fonts/JujutsuKaisen.ttf)}
+        h1 {font-family: JujutsuKaisen}
+        h2 {font-family: JujutsuKaisen}
+        h3 {font-family: JujutsuKaisen}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Here!</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Malevolent Kitchen</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Domain Expansion</h1>
+        <h2>Malevolent Kitchen</h2>
+    </header>
+
+    <div>
+        <h3>Menu</h3>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>yumyum</td>
+                    <td>lopsum ipsum</td>
+                    <td>$0.00</td>
+                </tr>
+    </div>
+
+    <div>
+        <section class="userInfo">
+            <h3>Order Here!</h3>
+                <form>
+                    <label for="name">Customer Name:</label>
+                    <input type="text" name="name"><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone"><br><br>
+                </form>
+            </section>
+
+        <section class="foodOrder">
+                <form>
+                    <label for="food">Your Order</label>
+                        <option value="">lopsum ipsum</option>
+                        <input type="checkbox" class="checkbox">
+
+                        <option value="">lopsum ipsum</option>
+                        <input type="checkbox" class="checkbox">
+
+                        <option value="">lopsum ipsum</option>
+                        <input type="checkbox" class="checkbox">
+
+                        <option value="">lopsum ipsum</option>
+                        <input type="checkbox" class="checkbox">
+
+                    <input type="submit" value="Order">
+                </form>
+        </section>
+    </div>
 </body>
 </html>
