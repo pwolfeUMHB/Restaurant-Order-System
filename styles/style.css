@@ -15,6 +15,25 @@ img {
 body{
     background-color: black;
 }
+
+table{
+    font-family: JujutsuKaisen;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 0;
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+
+}
+table th, td{
+    border: 1px solid #ddd;
+}
+th, td{
+    background-color: #f4f4f4f4;
+}
+
 h1, h2{
     text-align: center;
     font-size:500%;
@@ -41,23 +60,11 @@ label, option{
     font-family: JujutsuKaisen;
 }
 
-section.userInfo{
-    text-align: center;
-}
-section.foodOrder{
-    text-align: left;
+legend{
+    font-size: 200%;
 }
 
-table{
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-table th, td{
-    border: 1px solid #ddd;
-}
-th, td{
-    background-color: #f4f4f4f4;
+section.foodOrder{
+    font-family: JujutsuKaisen;
+    color: white;
 }
