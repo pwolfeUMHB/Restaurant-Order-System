@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rooster's Chicken</title>
 </head>
-<body>
-    
+
+<body style="background-color: blanchedalmond;">
+    <section class="menu">
+        <h2>Menu</h2>
+        <main style="border: 5px solid;">
+            <table>
+
+                <tr>
+                    <th>Price</th>
+                    <th>Starters</th>
+                    <th>Main Dishes</th>
+                    <th>Desserts</th>
+                </tr>
+
+                <tr>
+                    <td>10.99</td>
+                    <td>Wings</td>
+                    <td>Fried Chicken</td>
+                    <td>Peanut Butter and Jelly </td>
+                </tr>
+
+                <tr>
+                    <td>12.99</td>
+                    <td>Garlic Bread</td>
+                    <td>Grilled Chicken</td>
+                    <td>Soapilla's</td>
+                </tr>
+
+                <tr>
+                    <td>15.99</td>
+                    <td>Fried Mushroom's</td>
+                    <td>Barbeque Chicken</td>
+                    <td>Rootbeer Float</td>
+                </tr>
+
+            </table>
+    </section>
+    <section class="Order Menu">
+        <h2>Place your Order</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="starter">Choose Your Starter: </label>
+            <select name="starter" id="starter">
+                <option value=""></option>
+                <option value="Wings">Wings</option>
+                <option value="Garlic Bread">Garlic Bread</option>
+                <option value="Fried Mushrooms">Fried Mushrooms</option>
+            </select><br><br>
+
+            <label for="mainDish">Choose Your Main Dish: </label>
+            <select name="mainDish" id="mainDish">
+                <option value=""></option>
+                <option value="Fried Chicken">Fried Chicken</option>
+                <option value="Grilled Chicken">Grilled Chicken</option>
+                <option value="Barbeque Chicken">Barbeque Chicken</option>
+            </select><br><br>
+
+            <label for="dessert">Choose Your Dessert: </label>
+            <select name="dessert" id="dessert">
+                <option value=""></option>
+                <option value="Peanut Butter & Jelly">Peanut Butter & Jelly</option>
+                <option value="Soapilla's">Soapilla's</option>
+                <option value="Rootbeer Float">Rootbeer Float</option>
+            </select><br><br>
+
+            <input type="submit" value="Complete">
+
+        </form>
+    </section>
 </body>
+
 </html>
